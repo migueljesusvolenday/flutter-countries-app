@@ -19,8 +19,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Countries App',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(
-              seedColor: const Color.fromARGB(255, 255, 230, 228)),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
           useMaterial3: true,
         ),
         home: const HomePage(),
@@ -55,12 +54,6 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Countries App'),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.dark_mode),
-            onPressed: () {},
-          ),
-        ],
       ),
       body: Row(
         children: [

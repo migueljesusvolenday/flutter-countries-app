@@ -31,10 +31,10 @@ class _SearchCountryPageState extends State<SearchCountryPage> {
               width: 700,
               child: TextField(
                 controller: _nameCountryController,
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   filled: true,
-                  fillColor: Color.fromARGB(255, 246, 233, 232),
-                  border: OutlineInputBorder(
+                  fillColor: Theme.of(context).colorScheme.secondaryContainer,
+                  border: const OutlineInputBorder(
                     borderSide: BorderSide.none,
                     borderRadius: BorderRadius.all(
                       Radius.circular(5),

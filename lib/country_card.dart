@@ -36,7 +36,7 @@ class CountryCard extends StatelessWidget {
         height: 230,
         child: Card(
           margin: const EdgeInsets.all(10),
-          color: const Color.fromARGB(255, 255, 232, 232),
+          color: Theme.of(context).colorScheme.secondaryContainer,
           elevation: 0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5),
