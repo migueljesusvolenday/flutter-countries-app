@@ -39,6 +39,8 @@ class _AllCountriesState extends State<AllCountries> {
       final List<Country> countries =
           jsonList.map((json) => Country.fromJson(json)).toList();
 
+      countries.sort((a, b) => a.name.compareTo(b.name));
+
 // Devolver la lista de objetos Album
       return countries;
     } else {
