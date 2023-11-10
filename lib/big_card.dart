@@ -59,6 +59,7 @@ class BigCard extends StatelessWidget {
       width: width,
       child: Card(
         elevation: 0,
+        color: Theme.of(context).colorScheme.secondaryContainer,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(5),
           side: BorderSide(
