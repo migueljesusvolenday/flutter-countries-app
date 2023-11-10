@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
     List<Widget> pages = [const AllCountries(), const SearchCountryPage()];
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Where in the world?'),
+        title: const Text('Countries App'),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         actions: [
           IconButton(
